@@ -1,0 +1,91 @@
+
+.navbar-brand img{
+    width: 100px;
+    margin-right: 50px;
+}
+.nav-item{
+    padding-left: 12px;
+}
+.banner-left-text {
+	margin-top: 148px;
+}
+.banner-btn{
+    background-color: rgb(132,144,255);
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+.counter-section{
+    background-color: rgb(132,144,255);
+}
+.counter-item h1{
+    font-weight: 600;
+}
+
+/* pricing css  */
+.pricing-section p{
+    font-size: 20px;
+}
+.pricing-item{}
+.card-body h1 {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(128, 128, 128, .1);
+	line-height: 97px;
+	margin: auto;
+}
+.pricing-btn .btn-design {
+	box-shadow: 0px 0px 5px 1px rgba(13,110,253, .3);
+    
+}
+ /* user css  */
+ .user-section{
+     padding-top: 120px;
+     padding-bottom: 40px;
+ }
+ .card-body img {
+	width: 100px;
+	margin-top: -112px;
+	margin-left: -125px;
+}
+.user-btn {
+	box-shadow: 0px 0px 10px 4px 
+    rgba(0,0,0, .1);
+}
+ /* contact-form cs  */
+ .contact-form h2{
+     font-size: 25px;
+ }
+ .form-right-section{
+     margin-top: 130px;
+ }
+ .footer-section{
+     background-color: rgb(4,9,30);
+ }
+ .footer-section p {
+	font-size: 18px;
+	margin-bottom: 0px;
+	font-weight: 500;
+}
+
+/* responsive css  */
+
+@media (max-width:992px){
+    .responsive-card {
+        width: 50%;
+        margin-bottom: 90px;
+    }
+    .card-body img {
+        margin-left: -37px;
+    }
+}
+@media (max-width:580px){
+    .banner-left-text {
+        margin-top: 85px;
+    }
+    .col-md-3.col-sm-6 {
+        width: 50%;
+    }
+    .card {
+        margin-top: 70px;
+    }
+}
